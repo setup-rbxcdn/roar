@@ -11,8 +11,8 @@ import (
 	"github.com/robloxapi/rbxdump"
 	"github.com/robloxapi/rbxdump/diff"
 	"github.com/robloxapi/rbxver"
-	"github.com/robloxapi/roar/archive"
-	"github.com/robloxapi/roar/id"
+	"github.com/setup-rbxcdn/roar/archive"
+	"github.com/setup-rbxcdn/roar/id"
 )
 
 // Maps an object to a list of changes that apply to the object.

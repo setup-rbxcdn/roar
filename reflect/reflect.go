@@ -7,7 +7,7 @@ import (
 	"github.com/robloxapi/rbxfile"
 	"github.com/robloxapi/rbxfile/json"
 	"github.com/robloxapi/rbxfile/rbxlx"
-	"github.com/robloxapi/roar/id"
+	"github.com/setup-rbxcdn/roar/id"
 )
 
 type Root struct {

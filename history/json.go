@@ -5,7 +5,7 @@ import (
 
 	"github.com/robloxapi/rbxdump"
 	"github.com/robloxapi/rbxdump/diff"
-	"github.com/robloxapi/roar/id"
+	"github.com/setup-rbxcdn/roar/id"
 )
 
 // Index of Update list.

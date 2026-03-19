@@ -5,7 +5,7 @@ import (
 	"os"
 
 	"github.com/anaminus/snek"
-	"github.com/robloxapi/roar/cmd/roar/generate"
+	"github.com/setup-rbxcdn/roar/cmd/roar/generate"
 )
 
 var Program = snek.NewProgram("roar", os.Args)

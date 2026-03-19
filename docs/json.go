@@ -9,7 +9,7 @@ import (
 
 	"github.com/PuerkitoBio/goquery"
 	"github.com/andybalholm/cascadia"
-	"github.com/robloxapi/roar/id"
+	"github.com/setup-rbxcdn/roar/id"
 	"golang.org/x/net/html"
 )
 

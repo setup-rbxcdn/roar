@@ -9,8 +9,8 @@ import (
 
 	"github.com/robloxapi/rbxdump"
 	"github.com/robloxapi/rbxdump/diff"
-	"github.com/robloxapi/roar/history"
-	"github.com/robloxapi/roar/id"
+	"github.com/setup-rbxcdn/roar/history"
+	"github.com/setup-rbxcdn/roar/id"
 )
 
 type Root struct {

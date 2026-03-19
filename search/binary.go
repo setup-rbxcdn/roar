@@ -10,8 +10,8 @@ import (
 	"slices"
 
 	"github.com/robloxapi/rbxdump"
-	"github.com/robloxapi/roar/id"
-	"github.com/robloxapi/roar/index"
+	"github.com/setup-rbxcdn/roar/id"
+	"github.com/setup-rbxcdn/roar/index"
 )
 
 func keys[K cmp.Ordered, V any](m map[K]V) []K {

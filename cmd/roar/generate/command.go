@@ -15,12 +15,12 @@ import (
 	"github.com/publysher/httpfs"
 	"github.com/robloxapi/rbxdump"
 	"github.com/robloxapi/rbxdump/diff"
-	"github.com/robloxapi/roar/archive"
-	"github.com/robloxapi/roar/docs"
-	"github.com/robloxapi/roar/history"
-	"github.com/robloxapi/roar/icons"
-	"github.com/robloxapi/roar/index"
-	"github.com/robloxapi/roar/search"
+	"github.com/setup-rbxcdn/roar/archive"
+	"github.com/setup-rbxcdn/roar/docs"
+	"github.com/setup-rbxcdn/roar/history"
+	"github.com/setup-rbxcdn/roar/icons"
+	"github.com/setup-rbxcdn/roar/index"
+	"github.com/setup-rbxcdn/roar/search"
 )
 
 const (

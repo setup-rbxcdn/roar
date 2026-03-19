@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/robloxapi/roar/script"
+	"github.com/setup-rbxcdn/roar/script"
 )
 
 func Write(output string) error {

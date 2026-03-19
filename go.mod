@@ -1,4 +1,4 @@
-module github.com/robloxapi/roar
+module github.com/setup-rbxcdn/roar
 
 go 1.24.5
 

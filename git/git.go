@@ -6,7 +6,7 @@ import (
 	"os/exec"
 	"path/filepath"
 
-	"github.com/robloxapi/roar/script"
+	"github.com/setup-rbxcdn/roar/script"
 )
 
 // Checkout pulls data from a Git repository. dir is the directory to which the

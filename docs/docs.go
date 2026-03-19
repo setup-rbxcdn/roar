@@ -11,7 +11,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/robloxapi/roar/git"
+	"github.com/setup-rbxcdn/roar/git"
 	"gopkg.in/yaml.v3"
 )
 

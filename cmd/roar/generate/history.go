@@ -15,8 +15,8 @@ import (
 	"github.com/robloxapi/rbxdump"
 	"github.com/robloxapi/rbxdump/diff"
 	rbxdumpjson "github.com/robloxapi/rbxdump/json"
-	"github.com/robloxapi/roar/archive"
-	"github.com/robloxapi/roar/history"
+	"github.com/setup-rbxcdn/roar/archive"
+	"github.com/setup-rbxcdn/roar/history"
 )
 
 // Filters out builds meeting some criteria.

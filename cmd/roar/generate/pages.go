@@ -9,7 +9,7 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/robloxapi/roar/index"
+	"github.com/setup-rbxcdn/roar/index"
 )
 
 const PageTemplate = `+++
