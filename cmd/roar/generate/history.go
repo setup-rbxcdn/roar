@@ -1,7 +1,6 @@
 package generate
 
 import (
-	"bytes"
 	"encoding/json"
 	"errors"
 	"fmt"
@@ -140,12 +139,7 @@ func MergeHistory(repo *archive.Repo, storedHist *history.Root) *history.Root {
 
 		if update, ok := storedUpdates[build.GUID]; ok {
 			if len(actions) != len(update.Changes) {
-				var b bytes.Buffer
-				for _, v := range actions {
-					fmt.Fprintln(&b, v)
-				}
-				fmt.Println("DIFF")
-				os.Exit(1)
+				fmt.Printf("failed integrity check (%d != %d), was a build inserted?\n", len(actions), len(update.Changes))
 			}
 		}
 
