@@ -7,6 +7,7 @@
 			{{- if .ChangesCount }}
 				<li class="update">
 					<a class="permalink" title="Permanent link" href="{{($recent.GetPage (print (time .Date).Year)).RelPermalink}}#{{.GUID}}"><time datetime="{{(time .Date).Format `2006-01-02 15:04:05-0700`}}">{{(time .Date).Format `2006-01-02 15:04`}}</time> ({{partial "component/version.html" .Version}})</a>
+					{{- partial "entity/link.html" (dict "type" "download" "primary" .GUID)}}
 					{{- partial "entity/link.html" (dict "type" "releasenotes" "primary" .Version)}}
 					<ul class="change-list">
 						{{- $update := . }}

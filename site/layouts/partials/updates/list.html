@@ -14,6 +14,7 @@ year:   int?  // If recent is false, updates are render only for the given year.
 			<section id="{{.GUID}}" class="update">
 				{{- partial "updates/update.html" . }}
 				{{- if .ChangesCount }}
+					{{- partial "entity/link.html" (dict "type" "download" "primary" .GUID)}}
 					{{- partial "entity/link.html" (dict "type" "releasenotes" "primary" .Version)}}
 				{{- end }}
 				<ul class="change-list">
