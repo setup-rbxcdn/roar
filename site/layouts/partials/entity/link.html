@@ -23,7 +23,7 @@ optional: bool? // If true, add ? suffix to type name.
  	{{- if eq .type "releasenotes" -}}
  		{{- $href = printf "https://create.roblox.com/docs/release-notes/release-notes-%d" (int .primary.Version) -}}
  	{{- else if eq .type "download" -}}
- 		{{- $href = printf "https://rdd.latte.to/?binaryType=WindowsStudio64&version=version-%s" .primary -}}
+ 		{{- $href = printf "https://rdd.latte.to/?binaryType=WindowsStudio64&version=%s" .primary -}}
  	{{- else if .hub -}}
 		{{- if eq .type "class" -}}
 			{{- $href = printf "https://create.roblox.com/docs/reference/engine/classes/%s" .primary -}}
