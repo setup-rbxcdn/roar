@@ -28,14 +28,8 @@
 	--heading-scale: 1;
 }
 
-.update {
-    display: flex;
-    align-items: center;
-    gap: 0.5em;
-}
-
 .update .hub-link {
-    margin-left: auto; // pushes both hub-links to the right edge, like float did
+	float: right;
 }
 
 .entity-link > .picture {
